@@ -1,9 +1,3 @@
-stuff = dict()
-
-stuff['dane'] = 0
-stuff['candy'] = -1
-print(stuff.get("hello",1))
-for x in stuff:
-    print(x)
-
-print(stuff.values())
+x = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
+y = x.items()
+print(y)
