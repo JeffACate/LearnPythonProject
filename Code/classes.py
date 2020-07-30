@@ -19,16 +19,14 @@ def fillBoth(comm1, techReporting):
                     raise NotImplementedError('Name ')
                 except Exception as e:
                     print(e.__class__.__name__, e)
-def getName():
-    input('ClearThis')
-    cls()
-    name = input('Instructors Name: ')
+def getName(cName):
+    name = input('Instructors Name for {0}: '.format(cName))
     return name
 
 def getNames(cName):
     done = False
     while done != True:
-        getName()
+        getName(cName)
 
 def getCourse():
     try:
@@ -42,5 +40,5 @@ def runProgram():
     except Exception as e:
         print(e.__class__.__name__, e)
 
-res = getName()
+res = getName('c195')
 print(res)
