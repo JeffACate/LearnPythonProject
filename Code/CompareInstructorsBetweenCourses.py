@@ -1,7 +1,7 @@
 import sys
 import os
 
-class CourseComparer:
+class InsturctorComparer:
 
     c195 = list()
     c197 = list()
@@ -77,6 +77,6 @@ class CourseComparer:
         self.both = self.CompareCourses(self.c195,self.c197)
         return self.both
 
-c = CourseComparer()
+c = InsturctorComparer()
 c.RunProgram()
 print('\n195:',c.c195, '\n197:', c.c197,'\nboth:', c.both)
