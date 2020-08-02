@@ -8,7 +8,7 @@
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 16,
     "files.autoSave": "off",
-    "editor.fontFamily": "Anonymous Pro Regular",
+    "editor.fontFamily": "'Anonymous Pro Regular','Anonymous Pro', Consolas",
     "markdown.preview.fontSize": 16,
     "editor.detectIndentation": true,
     "editor.minimap.enabled": false,
