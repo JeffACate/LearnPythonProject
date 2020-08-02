@@ -14,58 +14,60 @@
     "editor.minimap.enabled": false,
     "eslint.validate": [
       {
-        "language": "vue",
-        "autoFix": true
+      "language": "vue",
+      "autoFix": true
       },
       {
           "language": "typescript",
           "autoFix": true
-        },
-      {
-        "language": "html",
-        "autoFix": true
       },
       {
-        "language": "javascript",
-        "autoFix": true
+      "language": "html",
+      "autoFix": true
+      },
+      {
+      "language": "javascript",
+      "autoFix": true
       }
-    ],
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.suggestSelection": "first",
-    "editor.tokenColorCustomizations": {
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "editor.tokenColorCustomizations": {
       "textMateRules": [
-        {
+      {
           "scope": [
-            "comment",
-            "comment.block"
+          "comment",
+          "comment.block"
           ],
           "settings": {
-            "fontStyle": "italic",
-            "foreground": "#ff1493"
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
           }
-        },
-        {
+      },
+      {
           "scope": [
-            "keyword.operator.logical",
-            "keyword.operator.arithmetic",
-            "keyword.operator.assignment",
-            "keyword.operator.bitwise"
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
           ],
           "settings": {
-            "fontStyle": ""
+          "fontStyle": ""
           }
-        }
+      }
       ]
-    },
-    "todo-tree.tree.showScanModeButton": false,
-    "cSpell.userWords": [
+  },
+  "todo-tree.tree.showScanModeButton": false,
+  "cSpell.userWords": [
       "deno",
       "feathersjs",
       "middlewares",
       "socketio",
       "upsert",
       "upvote"
-    ],
-    "editor.lineHeight": 0,
-    "editor.fontSize": 16
+  ],
+  "editor.lineHeight": 0,
+  "editor.fontSize": 16,
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "custom"
   }
